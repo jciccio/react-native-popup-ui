@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { View, ViewPropTypes } from 'react-native'
+import { View } from 'react-native'
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 import PropTypes from 'prop-types'
 
 import Popup from '../Popup'
@@ -9,7 +10,7 @@ import Toast from '../Toast'
 class Root extends Component {
   render() {
     return (
-      <View 
+      <View
         ref={c => (this._root = c)}
         style={{ flex: 1 }}
         {...this.props}
@@ -20,8 +21,8 @@ class Root extends Component {
             if (c) Popup.popupInstance = c
           }}
         />
-        
-        <Toast 
+
+        <Toast
           ref={c => {
             if (c) Toast.toastInstance = c
           }}
