@@ -1,14 +1,14 @@
 {
-  "name": "popup-ui",
-  "version": "1.2.2",
-  "description": "",
+  "name": "popup-ui-custom",
+  "version": "1.2.3",
+  "description": "Rafael Augusto's React Native Popup UI base project with some updates to be compliant with React 0.70 (fixes deprecated-react-native-prop-types error)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RafaelAugustoS/react-native-popup-ui.git"
+    "url": "git+https://github.com/jciccio/react-native-popup-ui.git"
   },
   "keywords": [
     "react-native",
@@ -24,7 +24,7 @@
     "popup-ui",
     "popup-ui-design"
   ],
-  "author": "Rafael Augusto",
+  "author": "Rafael Augusto & updates Jose C.",
   "license": "ISC",
   "devDependencies": {
     "metro-react-native-babel-preset": "^0.60.0"
